@@ -1,6 +1,8 @@
 #include <janet.h>
 #include <uuid/uuid.h>
 
+/* Heavily inspired by https://stackoverflow.com/a/51068240 */
+
 static Janet generate(int32_t argc, const Janet *argv) {
   janet_fixarity(argc, 0);
 
