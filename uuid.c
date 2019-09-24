@@ -20,11 +20,11 @@ static Janet generate(int32_t argc, const Janet *argv) {
    * uuid_unparse() doesn't allocate memory for itself, so do that with
    * malloc(). 37 is the length of a UUID (36 characters), plus '\0'.
    */
-  char *uuid = malloc(37);
+  char *uuid = malloc(36);
 
   uuid_unparse_upper(binuuid, uuid);
 
-  return janet_stringv((const uint8_t *) uuid, 37);
+  return janet_stringv((const uint8_t *) uuid, 36);
 }
 
 static const JanetReg cfuns[] = {

@@ -4,4 +4,6 @@
 
 (deftest
   (test "a uuid gets generated"
-    (= 37 (length (uuid/generate)))))
+    (= 36 (length (uuid/generate)))))
+
+(print (uuid/generate))
