@@ -7,7 +7,7 @@ Generate uuids with janet
 Add to your `project.janet` file
 
 ```clojure
-{:dependencies [{:repo "https://github.com/joy-framework/uuid" :tag "27975ccd1c384b18e640315c75b51282586cf463"}]}
+{:dependencies [{:repo "https://github.com/joy-framework/uuid" :tag "247bbebf6182963ef8e9048e89ca62aaf10f1c54"}]}
 ```
 
 ## Use
