@@ -10,4 +10,5 @@
 
 (declare-native
   :name "uuid"
+  :lflags @["-luuid"]
   :source @["uuid.c"])
